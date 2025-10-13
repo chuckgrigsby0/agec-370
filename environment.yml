@@ -1,0 +1,49 @@
+name: ds-base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.12
+  
+  # Core numerical computing
+  - numpy
+  - pandas
+  - scipy
+  
+  # Data I/O
+  - openpyxl
+  - xlrd  # Optional: for older Excel files (.xls)
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  
+  # Machine learning & statistics
+  - scikit-learn
+  - statsmodels
+  
+  # Jupyter ecosystem
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - notebook  # Optional: classic Jupyter interface
+  
+  # Web & APIs
+  - requests
+  - beautifulsoup4
+  
+  # Performance
+  - numba
+  
+  # Utilities
+  - tqdm
+  
+  # Package management
+  - pip
+  - pip:
+    - polars
+    - python-dotenv
+    # Add any pip-only packages here if needed
+    # Example: - package-name
