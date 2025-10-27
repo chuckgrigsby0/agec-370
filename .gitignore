@@ -4,7 +4,7 @@ notebooks_local/
 CLAUDE.md
 .vscode/
 data/raw/
-
+nul
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
