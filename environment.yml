@@ -10,6 +10,14 @@ dependencies:
   - numpy
   - pandas
   - scipy
+
+  # Geospatial
+  - geopandas
+  - folium
+  - plotly              
+  - mapclassify         
+  - fiona               
+  - shapely             
   
   # Data I/O
   - openpyxl
@@ -45,5 +53,6 @@ dependencies:
   - pip:
     - polars
     - python-dotenv
+    - pygris
     # Add any pip-only packages here if needed
     # Example: - package-name
