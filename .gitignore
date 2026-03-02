@@ -1,10 +1,12 @@
 # Local files
+docs/
 notebooks_local/
 .env
 CLAUDE.md
 .vscode/
 data/raw/
 nul
+figures/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
