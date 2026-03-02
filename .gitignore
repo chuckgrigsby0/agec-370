@@ -9,6 +9,8 @@ nul
 figures/
 .claude/
 tmpclaude*
+src/
+.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
